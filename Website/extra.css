@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+  }
+
+body {
+    background: linear-gradient(to bottom, rgb(95, 96, 97) 0%, rgb(51, 52, 53) 100%);
+    margin: 0%;
+}
+
+.projectone {
+    color: rgb(150, 199, 196);
+    width: 45%;
+    height: 300px;
+    text-align: left;
+    float: left;
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
+.layout {
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+.projecttwo {
+    color: rgb(150, 199, 196);
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding-left: 80px;
+    padding-top: 45px;
+  }
