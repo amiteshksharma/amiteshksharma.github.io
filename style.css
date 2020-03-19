@@ -40,18 +40,18 @@
   /* text on the right side of the home page */
   .header {
     font-size: 60px;
-    color: rgb(150, 199, 196);
+    color: rgb(22, 176, 214);
   }
 
   h2{
     padding-top: 20px;
-    color: rgb(150, 199, 196);
+    color: rgb(22, 176, 214);
   }
 
   h3 {
     padding-top: 10px;
     font-size: xx-large;
-    color: rgb(150, 199, 196);
+    color: rgb(22, 176, 214);
     text-align: center;
     font-size: 25px;
 
@@ -67,8 +67,8 @@
     color: #e6e7e9;
   }
   a:visited {
-    color: rgb(22, 176, 214);
+    color: rgb(17, 101, 228);
   }
   a:hover, a:active, a:focus {
-    color:rgb(22, 176, 214);
+    color:rgb(155, 148, 148);
   }
