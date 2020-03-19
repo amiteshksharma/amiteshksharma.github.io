@@ -3,7 +3,7 @@
   }
   
   body {
-    background: linear-gradient(to bottom, rgb(118, 120, 121) 0%, rgb(53, 54, 54) 100%);
+    background: linear-gradient(to bottom, rgb(142, 144, 145) 0%, rgb(53, 54, 54) 100%);
     margin: 0;
     font-family: "Palatino Linotype", "Book Antiqua", serif;
   }
@@ -40,18 +40,18 @@
   /* text on the right side of the home page */
   .header {
     font-size: 60px;
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
   }
 
   h2{
     padding-top: 20px;
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
   }
 
   h3 {
     padding-top: 10px;
     font-size: xx-large;
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
     text-align: center;
     font-size: 25px;
 
@@ -67,7 +67,7 @@
     color: #e6e7e9;
   }
   a:visited {
-    color: rgb(17, 101, 228);
+    color: rgb(244, 245, 248);
   }
   a:hover, a:active, a:focus {
     color:rgb(155, 148, 148);

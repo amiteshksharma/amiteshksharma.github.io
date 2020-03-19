@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background: linear-gradient(to bottom,rgb(118, 120, 121) 0%, rgb(53, 54, 54) 100%);
+    background: linear-gradient(to bottom, rgb(142, 144, 145) 0%, rgb(53, 54, 54) 100%);
     margin: 0%;
 }
 
@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
 }
 
 .goback {
@@ -30,9 +30,9 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 40px;   
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
 }
 
 a {
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
 }

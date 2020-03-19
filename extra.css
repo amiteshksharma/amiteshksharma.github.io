@@ -3,12 +3,12 @@ html {
   }
 
 body {
-    background: linear-gradient(to bottom, rgb(118, 120, 121) 0%, rgb(53, 54, 54) 100%);
+    background: linear-gradient(to bottom, rgb(142, 144, 145) 0%, rgb(53, 54, 54) 100%);
     margin: 0%;
 }
 
 .projectone {
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
     width: 45%;
     height: 300px;
     text-align: left;
@@ -24,10 +24,20 @@ body {
   }
 
 .projecttwo {
-    color: rgb(22, 176, 214);
+    color: rgb(116, 200, 221);
     width: 45%;
     height: 300px;
     float: left;
     padding-left: 80px;
     padding-top: 45px;
+  }
+
+  a {
+    color: #e6e7e9;
+  }
+  a:visited {
+    color: rgb(244, 245, 248);
+  }
+  a:hover, a:active, a:focus {
+    color:rgb(155, 148, 148);
   }
