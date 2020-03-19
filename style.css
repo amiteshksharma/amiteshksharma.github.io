@@ -5,7 +5,7 @@
   body {
     background: linear-gradient(to bottom, rgb(118, 120, 121) 0%, rgb(53, 54, 54) 100%);
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
   }
   
   .layout {
@@ -60,5 +60,15 @@
   h4 {
     font-size: 20px;
     font-style: bold;
-    color: rgb(150, 199, 196);
+    color: rgb(223, 233, 232);
+  }
+
+  a {
+    color: #e6e7e9;
+  }
+  a:visited {
+    color: rgb(22, 176, 214);
+  }
+  a:hover, a:active, a:focus {
+    color:rgb(22, 176, 214);
   }
