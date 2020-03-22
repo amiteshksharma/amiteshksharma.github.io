@@ -32,6 +32,30 @@ body {
     padding-top: 45px;
   }
 
+  .layoutImage {
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .pictureOne {
+    color: rgb(116, 200, 221);
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 45px;
+  }
+
+  .pictureTwo {
+    color: rgb(116, 200, 221);
+    width: 45%;
+    height: 300px;
+    float: left;
+    padding-left: 80px;
+    padding-top: 45px;
+  }
+
   a {
     color: #e6e7e9;
   }
