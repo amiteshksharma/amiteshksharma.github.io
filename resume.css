@@ -11,17 +11,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: calc(3vmin);
 }
 
 .resumelink {
     width: 100%;
-    font-size: 50px;
+    font-size: calc(7vmin);
     font-style: oblique;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: calc(40px);
     color: rgb(116, 200, 221);
 }
 
@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;   
+    padding-top: calc(40px);   
     color: rgb(116, 200, 221);
 }
 

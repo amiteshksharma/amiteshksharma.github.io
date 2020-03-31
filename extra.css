@@ -9,12 +9,12 @@ body {
 
 .projectone {
     color: rgb(116, 200, 221);
-    width: 45%;
-    height: 300px;
+    width: calc(45%);
+    height: calc(300px);
     text-align: left;
     float: left;
-    padding-top: 45px;
-    padding-left: 50px;
+    margin-top: calc(4vmin);
+    margin-left: calc(5vmin);
 }
 
 .layout {
@@ -25,11 +25,11 @@ body {
 
 .projecttwo {
     color: rgb(116, 200, 221);
-    width: 45%;
-    height: 300px;
+    width: calc(45%);
+    height: calc(300px);
     float: left;
-    padding-left: 80px;
-    padding-top: 45px;
+    margin-left: calc(10vmin);
+    margin-top: calc(4vmin);
   }
 
   .layoutImage {
@@ -40,20 +40,20 @@ body {
 
   .pictureOne {
     color: rgb(116, 200, 221);
-    width: 45%;
-    height: 300px;
+    width: calc(45%);
+    height: calc(300px);
     float: left;
-    padding-left: 50px;
-    padding-top: 45px;
+    margin-left: calc(5vmin);
+    margin-top: calc(4vmin);
   }
 
   .pictureTwo {
     color: rgb(116, 200, 221);
-    width: 45%;
-    height: 300px;
+    width: calc(45%);
+    height: calc(300px);
     float: left;
-    padding-left: 80px;
-    padding-top: 45px;
+    margin-left: calc(10vmin);
+    margin-top: calc(4vmin);
   }
 
   a {
