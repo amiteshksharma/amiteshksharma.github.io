@@ -7,12 +7,12 @@ body {
     background: white;
     margin: 0%;
     color: black;
+    font-family: 'Cairo', sans-serif;
 }
 
 .projectone {
     color: black;
     width: calc(45%);
-    height: calc(300px);
     text-align: left;
     float: left;
     margin-top: calc(4vmin);
@@ -28,7 +28,6 @@ body {
 .projecttwo {
     color: black;
     width: calc(45%);
-    height: calc(300px);
     float: left;
     margin-left: calc(10vmin);
     margin-top: calc(4vmin);

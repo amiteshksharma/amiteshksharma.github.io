@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Playfair+Display:wght@700&display=swap');
+  
   html {
     height: 100%;
     width: 100%;
@@ -6,7 +9,7 @@
   body {
     background: white;
     margin: 0;
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    font-family: 'Cairo', sans-serif;
   }
   
   .layout {
@@ -17,7 +20,7 @@
   /*personal image of myself */
   .picture {
     width: calc(40%);
-    height: calc(100px + 1vmin);
+    height: calc(5vmin);
     float: left;
     padding-left: calc(7vh + 1vmin);
     padding-top: calc(10vmin);
@@ -40,21 +43,27 @@
 
   /* text on the right side of the home page */
   .header {
+    font-family: 'Playfair Display', serif;
     font-size: calc(40px + 2vmin);
     color: black;
+    background-color: rgb(149, 225, 238);
+    border-radius: calc(2vh);
+    padding-bottom: calc(1vmin);
   }
 
   h2{
-    margin-top: calc(17vmin);
+    margin-top: calc(6vmin);
+    font-size: calc(3vmin);
     color: black;
   }
 
   h3 {
-    margin-top: calc(4vmin);
-    font-size: calc(18px + 1vmin);
+    padding: calc(1.5vmin);
+    border-radius: calc(2vh);
+    font-size: calc(3vmin);
     color: black;
     text-align: center;
-
+    border: 1px solid black;
   }
 
   h4, h5 {
@@ -69,7 +78,7 @@
     justify-content: center;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #495057;
+    background-color: #43474b;
     color: #fff;
     border-radius: 100%;
     font-size: 1.5rem;
@@ -81,7 +90,7 @@
   }
   
   .link:hover, .link:active, .link:focus {
-    color:rgb(103, 156, 226);
+    color:rgb(56, 210, 221);
   }
 
   .email {
