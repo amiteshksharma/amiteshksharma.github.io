@@ -9,3 +9,35 @@ body {
     color: black;
     font-family: 'Cairo', sans-serif;
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-one{
+  display: flex;
+  float: left;
+  flex-direction: row;
+  border: 1px solid black;
+  padding-bottom: calc(2vmin);
+  font-size: calc(3vmin);
+}
+
+.project-name {
+  width: 70%;
+  margin-left: calc(20vmin);
+  margin-top: calc(1.5vmin);
+}
+
+.icons {
+  width: 20%;
+  margin-top: calc(1.5vmin);
+  float: right;
+}
+
+.icons span {
+  margin-right: calc(2vmin);
+  margin-left: calc(2vmin);
+}
