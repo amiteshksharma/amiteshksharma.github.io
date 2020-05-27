@@ -14,9 +14,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  float: left;
 }
 
-.project-one{
+.project {
   display: flex;
   float: left;
   flex-direction: row;
@@ -26,15 +27,22 @@ body {
 }
 
 .project-name {
-  width: 70%;
+  width: 50%;
   margin-left: calc(20vmin);
-  margin-top: calc(1.5vmin);
+  margin-top: calc(1vmin);
+}
+
+.description {
+  width: 40%;
+  margin-top: calc(1vmin);
+  line-height: 1.0;
 }
 
 .icons {
   width: 20%;
-  margin-top: calc(1.5vmin);
+  margin-top: calc(1vmin);
   float: right;
+  display: flex;
 }
 
 .icons span {
