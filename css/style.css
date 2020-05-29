@@ -20,10 +20,10 @@
   /*personal image of myself */
   .picture {
     width: calc(40%);
-    height: calc(5vmin);
+    height: calc(5rem);
     float: left;
-    padding-left: calc(7vh + 1vmin);
-    padding-top: calc(10vmin);
+    padding-left: calc(5rem);
+    padding-top: calc(7rem);
   }
 
   .imgOne {
@@ -33,41 +33,40 @@
   /* right side of the layout */
   .bio {
     width: calc(40%);
-    height: calc(10vh);
     border-radius: 20%;
     text-align: center;
     float: left;
     margin-top: 0px;
-    margin-left: calc(5vmin);
+    margin-left: calc(4rem);
   }
 
   /* text on the right side of the home page */
   .header {
     font-family: 'Playfair Display', serif;
-    font-size: calc(40px + 2vmin);
+    font-size: calc(4rem);
     color: black;
     background-color: rgb(149, 225, 238);
-    border-radius: calc(2vh);
-    padding-bottom: calc(1vmin);
+    border-radius: calc(1.5rem);
+    padding-bottom: calc(.5rem);
   }
 
   h2{
-    margin-top: calc(6vmin);
-    font-size: calc(3vmin);
+    margin-top: calc(3rem);
+    font-size: calc(2rem);
     color: black;
   }
 
   h3 {
-    padding: calc(1.5vmin);
-    border-radius: calc(2vh);
-    font-size: calc(3vmin);
+    padding: calc(.8rem);
+    border-radius: calc(1rem);
+    font-size: calc(1.7rem);
     color: black;
     text-align: center;
     border: 1px solid black;
   }
 
   h4, h5 {
-    font-size: calc(5px + 2vmin);
+    font-size: calc(1.5rem);
     font-style: bold;
     color: black;
   }
@@ -76,13 +75,13 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: calc(3.5rem);
+    width: calc(3.5rem);
     background-color: #43474b;
     color: #fff;
     border-radius: 100%;
-    font-size: 1.5rem;
-    margin-right: 1.5rem;
+    font-size: calc(1.5rem);
+    margin-right: calc(1.5rem);
   }
 
   .link:visited {
