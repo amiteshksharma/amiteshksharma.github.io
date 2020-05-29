@@ -18,38 +18,36 @@ body {
   display: flex;
   flex-direction: column;
   float: left;
-  border-radius: calc(1.5vmin);
 }
 
 .project {
   display: flex;
   float: left;
   flex-direction: row;
-  border: 1px solid black;
-  font-size: calc(3vmin);
   border-collapse: collapse;
 }
 
 .project-name {
   font-family: 'Oswald', sans-serif;
-  width: 30%;
+  width: 40%;
   display: flex;
-  justify-content: center;
-  font-size: calc(5.5vmin);
-  text-align: center;
-  border-right: 1px solid black;
-  background-color: rgb(121, 188, 211);
-  
+  float: left;
+  flex-direction: column;
+}
+
+.title {
+  font-size: calc(2.5rem);
+  margin-left: calc(5rem);
+  margin-bottom: 0;
 }
 
 .description {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  margin-top: calc(1vmin);
-  margin-left: calc(3vmin);
-  margin-bottom: calc(1vmin);
+  margin-top: calc(1rem);
+  font-size: calc(1.5rem);
+  margin-left: calc(10rem);
+  margin-bottom: calc(.7rem);
   line-height: 1.0;
+  font-family: 'B612', sans-serif;
 }
 
 a:hover {
@@ -62,16 +60,19 @@ a:visited {
 
 .icons {
   width: 20%;
-  margin-top: calc(1vmin);
+  margin-top: calc(.8rem);
   float: right;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(2rem);
 }
 
 .icons span {
-  margin-right: calc(2vmin);
-  margin-left: calc(2vmin);
+  margin-right: calc(1rem);
+  margin-left: calc(1rem);
 }
 
 .space {
-  margin: calc(.75vmin);
+  margin: calc(.2rem);
 }
