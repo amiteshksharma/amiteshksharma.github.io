@@ -36,16 +36,16 @@ body {
 }
 
 .title {
-  font-size: calc(2.5rem);
-  margin-left: calc(5rem);
+  font-size: calc(2.5vw);
+  margin-left: calc(5vw);
   margin-bottom: 0;
 }
 
 .description {
-  margin-top: calc(1rem);
-  font-size: calc(1.5rem);
-  margin-left: calc(10rem);
-  margin-bottom: calc(.7rem);
+  margin-top: calc(1vw);
+  font-size: calc(1.5vw);
+  margin-left: calc(10vw);
+  margin-bottom: calc(.7vw);
   line-height: 1.0;
   font-family: 'B612', sans-serif;
 }
@@ -60,19 +60,19 @@ a:visited {
 
 .icons {
   width: 20%;
-  margin-top: calc(.8rem);
+  margin-top: calc(.8vw);
   float: right;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(2rem);
+  font-size: calc(2vw);
 }
 
 .icons span {
-  margin-right: calc(1rem);
-  margin-left: calc(1rem);
+  margin-right: calc(1vw);
+  margin-left: calc(1vw);
 }
 
 .space {
-  margin: calc(.2rem);
+  margin: calc(.2vw);
 }

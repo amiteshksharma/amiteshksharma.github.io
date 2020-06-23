@@ -13,24 +13,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: calc(3vmin);
+    padding-top: calc(3vw);
 }
 
 .resumelink {
     width: 100%;
-    font-size: calc(7vmin);
+    font-size: calc(3vw);
     font-style: oblique;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: calc(40px);
-}
-
-.goback {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: calc(1vmin);   
 }
 
 a {

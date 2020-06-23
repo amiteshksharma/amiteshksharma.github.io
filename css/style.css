@@ -20,10 +20,10 @@
   /*personal image of myself */
   .picture {
     width: calc(40%);
-    height: calc(5rem);
+    height: calc(5vw);
     float: left;
-    padding-left: calc(5rem);
-    padding-top: calc(7rem);
+    padding-left: calc(5vw);
+    padding-top: calc(5vw);
   }
 
   .imgOne {
@@ -37,36 +37,36 @@
     text-align: center;
     float: left;
     margin-top: 0px;
-    margin-left: calc(4rem);
+    margin-left: calc(4vw);
   }
 
   /* text on the right side of the home page */
   .header {
     font-family: 'Playfair Display', serif;
-    font-size: calc(4rem);
+    font-size: calc(3.3vw);
     color: black;
     background-color: rgb(149, 225, 238);
-    border-radius: calc(1.5rem);
-    padding-bottom: calc(.5rem);
+    border-radius: calc(1.5vw);
+    padding-bottom: calc(.5vw);
   }
 
   h2{
-    margin-top: calc(3rem);
-    font-size: calc(2rem);
+    margin-top: calc(1vw);
+    font-size: calc(1.5vw);
     color: black;
   }
 
   h3 {
-    padding: calc(.8rem);
-    border-radius: calc(1rem);
-    font-size: calc(1.7rem);
+    padding: calc(.8vw);
+    border-radius: calc(1vw);
+    font-size: calc(1.5vw);
     color: black;
     text-align: center;
     border: 1px solid black;
   }
 
   h4, h5 {
-    font-size: calc(1.5rem);
+    font-size: calc(1.5vw);
     font-style: bold;
     color: black;
   }
@@ -75,13 +75,13 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: calc(3.5rem);
-    width: calc(3.5rem);
+    height: calc(3.5vw);
+    width: calc(3.5vw);
     background-color: #43474b;
     color: #fff;
     border-radius: 100%;
-    font-size: calc(1.5rem);
-    margin-right: calc(1.5rem);
+    font-size: calc(1.5vw);
+    margin-right: calc(1.5vw);
   }
 
   .link:visited {
