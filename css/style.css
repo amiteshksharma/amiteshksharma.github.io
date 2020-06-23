@@ -97,6 +97,10 @@
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 
+    .bio {
+      margin-left: 0;
+    }
+
     .picture {
       height: calc(60vw);
       width: calc(80vw);
