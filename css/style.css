@@ -113,13 +113,13 @@
     }
 
     .bio h3, .bio h5{
-      font-size: calc(4vw);
+      font-size: calc(3.5vw);
     }
 
     .link {
       height: calc(7.5vw);
       width: calc(7.5vw);
-      font-size: calc(3.75vw);
+      font-size: calc(3.5vw);
     }
   }
 
