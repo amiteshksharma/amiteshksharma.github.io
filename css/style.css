@@ -92,7 +92,7 @@
     color:rgb(56, 210, 221);
   }
 
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     .picture, .bio {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }

@@ -15,7 +15,7 @@
     text-align: center;
     padding: calc(14px) calc(16px);
     text-decoration: none;
-    font-size: calc(2.5vmin);
+    font-size: calc(1.2vw);
   }
   
   /* Change the color of links on hover */
@@ -30,3 +30,9 @@
     color: black;
   }
   /* End of navigation bar design */
+
+  @media screen and (max-width: 767px) {
+    .topnav {
+      width: calc(100%); /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
