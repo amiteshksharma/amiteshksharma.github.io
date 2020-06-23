@@ -76,3 +76,26 @@ a:visited {
 .space {
   margin: calc(.2vw);
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .project-name {
+    width: calc(65%);
+  }
+
+  .project-name p {
+    font-size: calc(3.5vw);
+  }
+
+  .icon {
+    width: calc(100%);
+  }
+
+  .icons p {
+    font-size: calc(5vw);
+    margin-left: calc(10vw);
+  }
+}
