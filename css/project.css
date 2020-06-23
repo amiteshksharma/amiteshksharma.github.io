@@ -86,8 +86,12 @@ a:visited {
     width: calc(65%);
   }
 
-  .project-name p {
-    font-size: calc(3.5vw);
+  .description {
+    font-size: calc(4vw);
+  }
+
+  .title {
+    font-size: calc(6vw);
   }
 
   .icon {
