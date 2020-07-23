@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
@@ -34,7 +34,7 @@ body {
 }
 
 .project-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   width: 40%;
   display: flex;
   float: left;
