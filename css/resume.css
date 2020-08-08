@@ -6,7 +6,7 @@ html {
   }
 
 body {
-    background: white;
+    background: linear-gradient(90deg, #283048, #859398);
     margin: 0%;
     font-family: 'Lato', sans-serif;
 }

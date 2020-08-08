@@ -7,9 +7,9 @@ html {
   }
 
 body {
-    background: white;
+    background: linear-gradient(90deg, #283048, #859398);
     margin: 0%;
-    color: black;
+    color: white;
     font-family: 'Lato', sans-serif;
 }
 
@@ -23,9 +23,10 @@ body {
 }
 
 .project {
+  border: 2px solid #859398;
   position: relative;
   width: 100%;
-  box-shadow: 4px 4px 15px grey;
+  box-shadow: 4px 4px 15px #283048;
   display: flex;
   float: left;
   flex-direction: row;
@@ -42,6 +43,7 @@ body {
 }
 
 .title {
+  color: rgb(207, 207, 207);
   font-size: calc(2.5vw);
   width: auto;
   margin-left: calc(2vw);
@@ -50,6 +52,7 @@ body {
 }
 
 .description {
+  color: rgb(180, 180, 180);
   width: calc(30vw);
   margin-top: calc(1vw);
   margin-left: calc(5vw);
@@ -65,12 +68,8 @@ body {
   margin-top: calc(0.7vh);
 }
 
-a:hover {
-  color: rgb(42, 180, 226);
-}
-
 a:visited {
-  color: red;
+  color: rgb(248, 70, 70);
 }
 
 .icons-div {
@@ -122,12 +121,19 @@ a:visited {
     font-size: calc(6vw);
   }
 
-  .icon {
+  .icons-div {
+    max-width: calc(30vw);
+    right: calc(3vw);
+    justify-content: left;
+    text-align: left;
+  }
+
+  .icons {
+    float: right;
     width: calc(100%);
   }
 
   .icons p {
     font-size: calc(5vw);
-    margin-left: calc(10vw);
   }
 }
