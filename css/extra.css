@@ -1,68 +1,65 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-
-body {
-    background: white;
-    margin: 0%;
-    color: black;
-    font-family: 'Cairo', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
-.projectone {
-    color: black;
-    width: calc(45%);
-    text-align: left;
-    float: left;
-    margin-top: calc(4vmin);
-    margin-left: calc(5vmin);
+body {
+  background: linear-gradient(90deg, #283048, #859398);
+  margin: 0%;
+  color: black;
+  font-family: 'Cairo', sans-serif;
+}
+
+.hiking {
+  width: 100%;
+}
+
+.hiking h3 {
+  font-size: calc(2vw);
+  margin-top: calc(1vh);
+  color: rgb(204, 204, 204);
+  text-align: center;
+  text-decoration: underline;
 }
 
 .layout {
-    align-items: center;
-    width: 100%;
-    margin: auto;
-  }
+  align-items: center;
+  width: 100%;
+  margin-bottom: calc(8vh);
+}
 
-.projecttwo {
-    color: black;
-    width: calc(45%);
-    float: left;
-    margin-left: calc(10vmin);
-    margin-top: calc(4vmin);
-  }
+.layout h1 {
+  margin: calc(4vh) 0 calc(2vh) calc(4vh);
+  font-size: calc(2vw);
+  color: white;
+}
 
-  .layoutImage {
-    align-items: center;
-    width: 100%;
-    margin: auto;
-  }
+.layoutImage {
+  display: flex;
+  flex-direction: row;
+}
 
-  .pictureOne {
-    color: black;
-    width: calc(45%);
-    height: calc(300px);
-    float: left;
-    margin-left: calc(5vmin);
-    margin-top: calc(4vmin);
-  }
+.pictureOne {
+  color: black;
+  width: calc(100%);
+  height: calc(40vh);
+  float: left;
+  margin-left: calc(3%);
+}
 
-  .pictureTwo {
-    color: black;
-    width: calc(45%);
-    height: calc(300px);
-    float: left;
-    margin-left: calc(10vmin);
-    margin-top: calc(4vmin);
-  }
+.imgOne {
+  width: 95%;
+  height: calc(43vh);    
+}
 
-  a {
-    color: #020202;
-  }
-  a:visited {
-    color: rgb(216, 28, 22);
-  }
-  a:hover, a:active, a:focus {
-    color:rgb(30, 111, 216);
-  }
+.imgTwo {
+  width: 95%;
+  height: calc(43vh);
+}
+
+.pictureTwo {
+  color: black;
+  width: calc(100%);
+  height: calc(300px);
+  float: left;
+}

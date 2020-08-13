@@ -93,7 +93,7 @@ body {
 }
 
 .box div:nth-child(10) {
-  top: 50%;
+  top: 35%;
   left: 92%;
   animation: animate 5s linear infinite;
 }
@@ -108,6 +108,12 @@ body {
   top: 20%;
   left: 30%;
   animation: animate 5s linear infinite;  
+}
+
+.box div:nth-child(13) {
+  top: 90%;
+  left: 40%; 
+  animation: animate 9s linear infinite;  
 }
 
 @keyframes animate {
