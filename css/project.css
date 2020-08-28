@@ -25,6 +25,7 @@ body {
 .project {
   border: 2px solid #859398;
   position: relative;
+  margin-left: calc(3vw);
   width: 100%;
   box-shadow: 4px 4px 15px #283048;
   display: flex;
