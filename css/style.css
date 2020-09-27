@@ -6,6 +6,10 @@ html {
   width: 100%;
 }
 
+.bg-dark {
+  background: linear-gradient(90deg, #283048, #859398) !important;
+}
+
 body {
   background: white;
   margin: 0;
@@ -51,7 +55,7 @@ body {
 }
 
 .box div:nth-child(3) {
-  top: 25%;
+  top: 15%;
   left: 6%;
   animation: animate 7s linear infinite;
 }
@@ -105,7 +109,7 @@ body {
 }
 
 .box div:nth-child(12) {
-  top: 20%;
+  top: 18%;
   left: 30%;
   animation: animate 5s linear infinite;  
 }
@@ -114,6 +118,12 @@ body {
   top: 90%;
   left: 40%; 
   animation: animate 9s linear infinite;  
+}
+
+.box div:nth-child(14) {
+  top: 62%;
+  left: 30%; 
+  animation: animate 8s linear infinite;  
 }
 
 @keyframes animate {

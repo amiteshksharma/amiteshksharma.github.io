@@ -3,6 +3,10 @@ html {
   width: 100%;
 }
 
+.bg-dark {
+  background: linear-gradient(90deg, #283048, #859398) !important;
+}
+
 body {
   background: linear-gradient(90deg, #283048, #859398);
   margin: 0%;
