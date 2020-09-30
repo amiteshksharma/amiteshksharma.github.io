@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .bg-dark {
@@ -11,66 +11,87 @@ html {
 }
 
 body {
-    background: linear-gradient(90deg, #283048, #859398);
-    margin: 0%;
-    color: white;
-    font-family: 'Lato', sans-serif;
+  background: linear-gradient(90deg, #283048, #859398);
+  margin: 0%;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
-  width: 60%;
-  position: relative;
-  min-width: 60%;
-  display: flex;
-  flex-direction: column;
-  float: left;
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: calc(50%) calc(50%);
+  grid-template-rows: calc(15vh);
+  margin-bottom: calc(8vh);
 }
+
+.project-image, .project-image-mobile {
+  max-width: calc(100%);
+  margin: calc(1vw);
+  margin-left: calc(0vw);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.project-image img {
+  height: calc(38vh);
+  width: auto;
+  border-radius: calc(1rem);
+  border: none;
+  box-shadow: 4px 4px 15px #283048;
+  cursor: pointer;
+}
+
+.project-image-mobile img {
+  height: calc(50vh);
+  width: auto;
+}
+
+/* The text description for the project
+project-name refers to the actual text
+project is simply the div surrounding it 
+*/
 
 .project {
-  border: 2px solid #859398;
-  position: relative;
-  margin-left: calc(3vw);
   width: 100%;
-  box-shadow: 4px 4px 15px #283048;
-  display: flex;
-  float: left;
-  flex-direction: row;
-  border-collapse: collapse;
-  border-radius: calc(1rem);
-}
-
-.project-name {
-  font-family: 'Montserrat', sans-serif;
-  width: 40%;
   display: flex;
   float: left;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-name-right, .project-name-left {
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  display: flex;
+  float: left;
+  flex-direction: column;
+  font-size: calc(1.12vw);
+}
+
+.project-name-left {
+  color: rgb(252, 252, 252);
+}
+
+.project-name-right{ 
+  color: rgb(241, 239, 239);
+}
+
+.title-div {
+  grid-column: 1 / span 2;
+  text-align: center;
 }
 
 .title {
-  color: rgb(207, 207, 207);
+  color: rgb(255, 255, 255);
   font-size: calc(2.5vw);
+  font-variant: small-caps;
   width: auto;
   margin-left: calc(2vw);
   margin-bottom: 0;
-  border-bottom: 1px solid grey;
-}
-
-.description {
-  color: rgb(180, 180, 180);
-  width: calc(30vw);
-  margin-top: calc(1vw);
-  margin-left: calc(5vw);
-  float: left;
-  font-size: calc(1.4vw);
-  margin-bottom: calc(.7vw);
-  line-height: 1.0;
-  font-family: 'Lato', sans-serif;
-  list-style: circle;
-}
-
-.description li {
-  margin-top: calc(0.7vh);
 }
 
 a:visited {
@@ -78,25 +99,37 @@ a:visited {
 }
 
 .icons-div {
-  position: absolute;
   display: flex;
-  float: left;
   justify-content: left;
   text-align: left;
   min-width: calc(20vw);
-  top: calc(35%);
   right: 0;
 }
 
 .icons {
   margin-top: calc(.8vw);
-  display: flex;
   float: left;
-  right: 0;
-  top: calc(30%);
-  justify-content: center;
   align-items: center;
   font-size: calc(2vw);
+}
+
+.fa-git {
+  color: rgb(58, 58, 58)!important;
+  transition: ease-in 0.3s;
+}
+
+.fa-git:hover {
+  color: rgb(255, 255, 255) !important;
+  transition: ease-out 0.3s;
+}
+
+#git-college-shark, #git-bloggers, #git-calorie, #git-events, #git-location {
+  padding: calc(0.2vw);
+  border-radius: calc(1rem);
+}
+
+#git-college-shark:hover, #git-bloggers:hover, #git-calorie:hover, #git-events:hover, #git-location:hover {
+  cursor: pointer;
 }
 
 .icons span {
@@ -108,22 +141,43 @@ a:visited {
   margin: calc(0.8vw);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
   .container {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: calc(100%);
+    margin-bottom: calc(8vh);
   }
 
-  .project-name {
-    width: calc(65%);
+  .project-name-right, .project-name-left {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    font-size: calc(1.12vw);
   }
-
-  .description {
-    font-size: calc(4vw);
-    width: calc(50vw)
+  
+  .project-name-left {
+    color: rgb(252, 252, 252);
   }
-
+  
+  .project-name-right{ 
+    color: rgb(241, 239, 239);
+  }
+  
+  .title-div {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+  
   .title {
-    font-size: calc(6vw);
+    color: rgb(255, 255, 255);
+    font-size: calc(2.5vw);
+    font-variant: small-caps;
+    width: auto;
+    margin-left: calc(2vw);
+    margin-bottom: 0;
   }
 
   .icons-div {
@@ -140,5 +194,28 @@ a:visited {
 
   .icons p {
     font-size: calc(5vw);
+  }
+
+  .project-image, .project-image-mobile {
+    max-width: calc(100%);
+    margin: calc(1vw);
+    margin-left: calc(0vw);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .project-image img {
+    height: calc(30vh);
+    width: auto;
+    border-radius: calc(1rem);
+    border: none;
+    box-shadow: 4px 4px 15px #283048;
+    cursor: pointer;
+  }
+  
+  .project-image-mobile img {
+    height: calc(30vh);
+    width: auto;
   }
 }
