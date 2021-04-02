@@ -4,7 +4,6 @@
 <head>
   <title>Amitesh Kumar Sharma</title>
   <link rel="stylesheet" type="text/css" href="../css/project.css">
-  <link rel="stylesheet" type="text/css" href="../css/navbar.css">
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
@@ -40,6 +39,40 @@
 
   <div class="container">
     <div class="title-div">
+      <p class="title">Baraka & Bilal Catering </p>
+    </div>
+
+    <div class="project">
+      <div class="project-name-left">
+        <p>Deployed: <strong>March 2021</strong></p>
+        <p>Project implement in a team of 8.</p>
+        <p>A responsive application designed and implemented for a nonprofit organization. A simple website
+          that allows customers to place orders and for the organization to manage online orders.
+        </p> 
+        <p>Implemented designs for client interface. <br />
+        Responsive design from mobile to desktop. <br /> 
+        Programmed frontend interface to manage customer orders for Admins.</p> 
+      </div>
+
+      <div class="icons-div">
+        <div class="icons">
+          <p>
+            <span><i class="fab fa-react" style="color: rgb(15, 195, 250);"></i></span>
+            <span><i class="fab fa-css3" style="color: rgb(47, 163, 209);"></i></span>
+            <span><i class="fab fa-html5" style="color: rgb(209, 37, 37);"></i></span>
+            <span><i class="fab fa-node" style="color: rgb(69, 189, 69);"></i></span>
+            <span id="git-baraka"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="project-image">
+      <img id="Baraka" src="../img/TSE_Project_Baraka.PNG" />
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="title-div">
       <p class="title">College-Shark</p>
     </div>
 
@@ -50,7 +83,7 @@
     <div class="project">
       <div class="project-name-right">
         <p>Deployed: <strong>September 2020</strong></p>
-        <p>Project created in collaboration with 7 friends.</p>
+        <p>Project created in collaboration with 7 colleagues.</p>
         <p>A web application for aspiring college students to organize their college wishlist in one place. Users
           can keep track of their application process for individual colleges they save.
         </p> 
@@ -65,7 +98,7 @@
             <span><i class="fab fa-css3" style="color: rgb(47, 163, 209);"></i></span>
             <span><i class="fab fa-html5" style="color: rgb(209, 37, 37);"></i></span>
             <span><i class="fab fa-python" style="color: rgb(211, 224, 24);"></i></span>
-            <span id="git-college-shark"><i class="fab fa-git" style="color: rgb(60, 59, 61);"></i></span>
+            <span id="git-college-shark"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
           </p>
         </div>
       </div>
@@ -97,7 +130,7 @@
             <span><i class="fab fa-css3" style="color: rgb(47, 163, 209);"></i></span>
             <span><i class="fab fa-html5" style="color: rgb(209, 37, 37);"></i></span>
             <span><i class="fas fa-database" style="color: rgb(69, 189, 69);"></i></span>
-            <span id="git-bloggers"><i class="fab fa-git" style="color: rgb(60, 59, 61);"></i></span>
+            <span id="git-bloggers"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
           </p>
         </div>
       </div>
@@ -135,7 +168,7 @@
             <span><i class="fab fa-css3" style="color: rgb(47, 163, 209);"></i></span>
             <span><i class="fab fa-html5" style="color: rgb(209, 37, 37);"></i></span>
             <span><i class="fas fa-database" style="color: rgb(69, 189, 69);"></i></span>
-            <span id="git-calorie"><i class="fab fa-git" style="color: rgb(60, 59, 61);"></i></span>
+            <span id="git-calorie"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
           </p>
         </div>
       </div>
@@ -164,7 +197,7 @@
             <span><i class="fab fa-java" style="color: red;"></i></span>
             <span><i class="fab fa-android" style="color: rgb(144, 209, 47);"></i></span>
             <span><i class="fas fa-database" style="color: rgb(25, 137, 202);"></i></span>
-            <span id="git-events"><i class="fab fa-git" style="color: rgb(60, 59, 61);"></i></span>
+            <span id="git-events"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
           </p>
         </div>
       </div>
@@ -186,7 +219,7 @@
           <p>
             <span><i class="fab fa-java" style="color: red;"></i></span>
             <span><i class="fab fa-android" style="color: rgb(144, 209, 47);"></i></span>
-            <span id="git-location"><i class="fab fa-git" style="color: rgb(60, 59, 61);"></i></span>
+            <span id="git-location"><i class="fab fa-git" style="color: rgb(60, 59, 61); cursor: pointer;"></i></span>
           </p>
         </div>
       </div>
@@ -234,6 +267,11 @@
       window.location.href = 'https://calorietracking.netlify.app/'; 
     })
 
+    const Baraka = document.getElementById('calorie');
+    Baraka.addEventListener('click', () => {
+      window.location.href = 'https://barakabilal.herokuapp.com/'; 
+    })
+
     const gitCalorie = document.getElementById('git-calorie');
     gitCalorie.addEventListener('click', () => {
       window.location.href = 'https://github.com/amiteshksharma/CalorieTracker';   
@@ -247,6 +285,11 @@
     const gitLocations = document.getElementById('git-location');
     gitLocations.addEventListener('click', () => {
       window.location.href = 'https://github.com/amiteshksharma/ShowLocationApp';
+    })
+
+    const gitBaraka = document.getElementById('git-baraka ');
+    gitBaraka.addEventListener('click', () => {
+      window.location.href = 'https://github.com/TritonSE/UWEAST-Community-Kitchen';
     })
 
   </script>
