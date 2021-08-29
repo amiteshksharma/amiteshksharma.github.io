@@ -32,11 +32,11 @@ body {
     padding-top: calc(40px);
 }
 
-.resumelink a {
+a {
     color: #FF7F50;
 }
 
-.resumelink a:hover {
+a:hover {
     color: #f54809; 
     text-decoration: none;
 }
