@@ -86,7 +86,7 @@ project is simply the div surrounding it
 }
 
 .title {
-  color: rgb(255, 255, 255);
+  color: #FF7F50;
   font-size: calc(2.5vw);
   font-variant: small-caps;
   width: auto;

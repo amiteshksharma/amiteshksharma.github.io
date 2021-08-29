@@ -24,7 +24,7 @@ body {
 
 .resumelink {
     width: 100%;
-    font-size: calc(2vw);
+    font-size: calc(36px);
     font-style: oblique;
     display: flex;
     align-items: center;
@@ -32,6 +32,11 @@ body {
     padding-top: calc(40px);
 }
 
-a {
-    color: rgb(0, 0, 0)
+.resumelink a {
+    color: #FF7F50;
+}
+
+.resumelink a:hover {
+    color: #f54809; 
+    text-decoration: none;
 }

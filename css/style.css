@@ -126,6 +126,12 @@ body {
   animation: animate 8s linear infinite;  
 }
 
+.box div:nth-child(15) {
+  top: 12%;
+  left: 60%; 
+  animation: animate 5s linear infinite;  
+}
+
 @keyframes animate {
   0% {
     transform: scale(0) translateY(0) rotate(0);
@@ -171,10 +177,10 @@ body {
 
 /* text on the right side of the home page */
 
-.bio h2{
+.bio h2 {
   font-family: 'Montserrat', sans-serif;
   margin-top: calc(3vh);
-  font-size: calc(2vw);
+  font-size: calc(36px);
   color: black;
 }
 
@@ -186,12 +192,11 @@ body {
 .bio h3 {
   padding: calc(2vw);
   border-radius: calc(1vw);
-  font-size: calc(1.5vw);
+  font-size: calc(28px);
   color: black;
   margin-top: calc(3vh);
   text-align: center;
   font-family: 'Lato', sans-serif;
-  
 }
 
 .bio h4, h5 {
@@ -203,16 +208,6 @@ body {
 
 .bio h5 {
   margin-top: calc(3vh);
-}
-
-.bio .skills {
-  width: 100%;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.bio .skills h3 {
-  margin-top: calc(-3vh);
 }
 
 .link {
@@ -230,11 +225,11 @@ body {
 }
 
 .link:visited {
-  color: rgb(248, 248, 248);
+  color: #ff9068;
 }
 
 .link:hover, .link:active, .link:focus {
-  color:rgb(56, 210, 221);
+  color: #FF7F50;
 }
 
 @media screen and (max-width: 767px) {

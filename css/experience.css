@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-dark {
+    background: linear-gradient(90deg, #283048, #859398) !important;
+}
+
+body {
+    background: linear-gradient(90deg, #283048, #859398);
+    margin: 0%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.space {
+    margin: calc(0.8vw);
+}
+
+.experience-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    width: 55%;
+    margin-left: 81px;
+}
+
+.experience-company {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: white;
+}
+
+.experience-title {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FF7F50;
+}
+
+.experience-position {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #93e9be;
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.experience-duration {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    font-size: 18px;
+    color: #93e9be;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+}
+
+.experience-notes {
+    margin-top: -5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+}
+
+.experience-notes a {
+    color: rgb(21, 202, 247);
+}
+
+.experience-notes a:hover {
+    color:rgb(13, 160, 197);
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white !important;
+    margin: 0 0 0 0 !important;
+}
